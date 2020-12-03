@@ -41,6 +41,7 @@
 
 
 echo "<div id='titleAdmin'>Page Admin</div>";
+echo "<div id='titleAdmin'>Coucou</div>";
 echo "<div id='titleControl'>Bienvenue sur le pannel de contrôle</div>";
 
 echo"<div class='nomsBloc'>";
