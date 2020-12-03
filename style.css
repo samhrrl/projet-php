@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 10, 17);
+    font-family: sans-serif;
+}
+.container{
+    background:rgb(53, 52, 58);
+    width: 30%;
+    float: left;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 40px 30px;
+    border-radius: 40px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.box input[type="text"], .box input[type="passwd"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid rgb(46, 82, 158);
+    padding: 14px 15px;
+    width: 200px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    outline: none;
+}
+.box input[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid rgb(14, 146, 31);
+    padding: 14px 15px;
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    outline: none;
+    margin-top: 2%;
+}
+.container-menu{
+    height: 650px;
+    background: linear-gradient(to bottom right, rgb(53, 52, 58),blue);
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    padding: 40px 30px;
+    border: 10px solid black;
+}
+.nouveauCompte{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5%;
+    color: white;
+}
+.seConnecter{
+    color: green;
+}
+.reussi{
+    color: green;
+}
+.erreur{
+    color: red;
+}
+.container-menu ul li{
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    color: white; 
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 5px solid black;
+    width: 60%;
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+    height: 80px;
+    justify-content: center;
+    background: #286386;
+    font-size: 30px;
+
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+.presque img{
+    margin-left: 5%;
+}
+.connect{
+    margin-left: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 2%;
+}

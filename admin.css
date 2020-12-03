@@ -1,0 +1,111 @@
+body{
+    background: rgb(216, 216, 216);
+    margin: 0px;
+    padding: 0px;
+}
+
+#titleAdmin{
+    font-size: 40px;
+    width: 100%;
+    background: rgb(252, 252, 255);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-top: 2%;
+    
+    
+}
+.containerTable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    
+}
+#titleControl{
+    font-size: 20px;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    background: white;
+
+
+    
+}
+#titleControl2{
+    font-size: 30px;
+    width: 100%;
+    background: white;
+    margin-top: 2%;
+    height: 100px;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    text-decoration: none;
+}
+#control{
+    font-size: 15px;
+    color: white;
+    text-transform: unset;
+    padding: 5px 8px;
+}
+.nomsBloc{
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding-top: 1%;
+    font-size: 20px;
+    background: rgb(249, 250, 255);
+    height: 20px;
+    padding-bottom: 1%;
+    
+
+
+}
+table{
+    border: 1px solid rgb(231, 231, 231)55, 255, 255);
+    border-collapse: collapse;
+    width: 30%;
+    float: right;
+    background: white;
+    margin-top: 2%;
+    margin-left: 1%;
+ 
+    
+
+   
+}
+th, td{
+    border: blue;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+
+th, td::hover{
+    background: blue;
+    
+    
+}
+.advanced-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+
+}
+.banner_left{
+    width: 15%;
+    background: rgb(12, 40, 94);
+    margin 0px;
+    padding: 0px;
+    height: 900px;
+    float: left;
+}
