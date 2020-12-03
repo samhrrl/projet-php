@@ -158,7 +158,7 @@ function modifierMotDePasse(){
 echo "<div class='advanced-options>'";
 echo "<form method='post' action='admin.php'>";
 
-echo "<fieldset><legend>Authentification</legend>";
+echo "<fieldset><legend>Authentifications</legend>";
 
 
     echo "<h1>Changer un mot de passe</h1>";
@@ -171,7 +171,7 @@ echo "<fieldset><legend>Authentification</legend>";
         echo"<input type='submit' name='modifier'>";
     echo "</fieldset>";
 echo "<fieldset><legend>Authentification</legend>";
-    echo "<h1>Suppression d'un joueur de la platforme</h1>";
+    echo "<h1>Suppression d'un.e joueu.r.se de la platforme</h1>";
     echo "<h3>Entrez l'utilisateur où vous changerez son mdp</h3>";
     echo "<input type='text' name='passEditing'  placeholder='Saisir le nom d'utilisateur'>";
 

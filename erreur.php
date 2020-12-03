@@ -8,10 +8,10 @@ if (isset($_GET['err'])){
 		echo "erreur, formulaire non passé";
 		break;
 	case 2:
-	    echo "erreur, vous n'êtes pas connecté";
+	    echo "erreur, vous n'êtes pas connecté.e";
 		break;
 	case 3:
-		echo "ok, vous êtes déconnecté";
+		echo "ok, vous êtes déconnecté.e";
 		break;
 	case 4:
 		echo "erreur, logout sans formulaire";
