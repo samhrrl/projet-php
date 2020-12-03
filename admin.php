@@ -158,7 +158,8 @@ function modifierMotDePasse(){
 echo "<div class='advanced-options>'";
 echo "<form method='post' action='admin.php'>";
 
-echo "<fieldset><legend>Authentifications</legend>";
+
+echo "<fieldset><legend>Authentificatiossnss</legend>";
 
 
     echo "<h1>Changer un mot de passe</h1>";
