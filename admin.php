@@ -158,6 +158,7 @@ function modifierMotDePasse(){
 echo "<div class='advanced-options>'";
 echo "<form method='post' action='admin.php'>";
 
+
 echo "<fieldset><legend>Authentificatiossnss</legend>";
 
 
